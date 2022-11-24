@@ -31,8 +31,6 @@ function App() {
   }
 
   function handleRedo() {
-    console.log(redoPoints);
-
     const getUndoPoints = [...redoPoints];
     const toRedoPoints = getUndoPoints.pop();
     const storeRedoPoints:TPoint [] = [];
